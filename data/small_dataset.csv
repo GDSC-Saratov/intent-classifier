@@ -1,0 +1,795 @@
+sequence,intent,label
+открой видео,manage_media,0
+откроешь видео,manage_media,0
+открой фото,manage_media,0
+откроешь фото,manage_media,0
+открой картинку,manage_media,0
+откроешь картинку,manage_media,0
+закрой видео,manage_media,0
+закроешь видео,manage_media,0
+закрой фото,manage_media,0
+закроешь фото,manage_media,0
+закрой картинку,manage_media,0
+закроешь картинку,manage_media,0
+включи видео,manage_media,0
+выключишь видео,manage_media,0
+останови видео,manage_media,0
+остановишь видео,manage_media,0
+оставь на паузе видео,manage_media,0
+оставишь на паузе видео,manage_media,0
+оставь на паузе фото,manage_media,0
+оставишь на паузе фото,manage_media,0
+оставь на паузе картинку,manage_media,0
+оставишь на паузе картинку,manage_media,0
+оставь на паузе музыку,manage_media,0
+оставишь на паузе музыку,manage_media,0
+оставь на паузе трек,manage_media,0
+оставишь на паузе трек,manage_media,0
+оставь на паузе запись,manage_media,0
+оставишь на паузе запись,manage_media,0
+включи следующий видео,manage_media,0
+включишь следующий видео,manage_media,0
+включи следующий фото,manage_media,0
+включишь следующий фото,manage_media,0
+включи следующий картинку,manage_media,0
+включишь следующий картинку,manage_media,0
+включи следующий музыку,manage_media,0
+включишь следующий музыку,manage_media,0
+включи следующий трек,manage_media,0
+включишь следующий трек,manage_media,0
+включи следующий запись,manage_media,0
+включишь следующий запись,manage_media,0
+видео открой,manage_media,0
+видео откроешь,manage_media,0
+фото открой,manage_media,0
+фото откроешь,manage_media,0
+картинку открой,manage_media,0
+картинку откроешь,manage_media,0
+видео закрой,manage_media,0
+видео закроешь,manage_media,0
+фото закрой,manage_media,0
+фото закроешь,manage_media,0
+картинку закрой,manage_media,0
+картинку закроешь,manage_media,0
+видео включи,manage_media,0
+видео выключишь,manage_media,0
+видео останови,manage_media,0
+видео остановишь,manage_media,0
+видео оставь на паузе,manage_media,0
+видео оставишь на паузе,manage_media,0
+фото оставь на паузе,manage_media,0
+фото оставишь на паузе,manage_media,0
+картинку оставь на паузе,manage_media,0
+картинку оставишь на паузе,manage_media,0
+музыку оставь на паузе,manage_media,0
+музыку оставишь на паузе,manage_media,0
+трек оставь на паузе,manage_media,0
+трек оставишь на паузе,manage_media,0
+запись оставь на паузе,manage_media,0
+запись оставишь на паузе,manage_media,0
+видео включи следующий,manage_media,0
+видео включишь следующий,manage_media,0
+фото включи следующий,manage_media,0
+фото включишь следующий,manage_media,0
+картинку включи следующий,manage_media,0
+картинку включишь следующий,manage_media,0
+музыку включи следующий,manage_media,0
+музыку включишь следующий,manage_media,0
+трек включи следующий,manage_media,0
+трек включишь следующий,manage_media,0
+запись включи следующий,manage_media,0
+запись включишь следующий,manage_media,0
+можешь видео открыть,manage_media,0
+можешь фото открыть,manage_media,0
+можешь картинку открыть,manage_media,0
+можешь видео закрыть,manage_media,0
+можешь фото закрыть,manage_media,0
+можешь картинку закрыть,manage_media,0
+можешь видео включить,manage_media,0
+можешь видео остановить,manage_media,0
+можешь видео оставить на паузе,manage_media,0
+можешь фото оставить на паузе,manage_media,0
+можешь картинку оставить на паузе,manage_media,0
+можешь музыку оставить на паузе,manage_media,0
+можешь трек оставить на паузе,manage_media,0
+можешь запись оставить на паузе,manage_media,0
+можешь видео включить следующий,manage_media,0
+можешь фото включить следующий,manage_media,0
+можешь картинку включить следующий,manage_media,0
+можешь музыку включить следующий,manage_media,0
+можешь трек включить следующий,manage_media,0
+можешь запись включить следующий,manage_media,0
+видео можешь открыть,manage_media,0
+фото можешь открыть,manage_media,0
+картинку можешь открыть,manage_media,0
+видео можешь закрыть,manage_media,0
+фото можешь закрыть,manage_media,0
+картинку можешь закрыть,manage_media,0
+видео можешь включить,manage_media,0
+видео можешь остановить,manage_media,0
+видео можешь оставить на паузе,manage_media,0
+фото можешь оставить на паузе,manage_media,0
+картинку можешь оставить на паузе,manage_media,0
+музыку можешь оставить на паузе,manage_media,0
+трек можешь оставить на паузе,manage_media,0
+запись можешь оставить на паузе,manage_media,0
+видео можешь включить следующий,manage_media,0
+фото можешь включить следующий,manage_media,0
+картинку можешь включить следующий,manage_media,0
+музыку можешь включить следующий,manage_media,0
+трек можешь включить следующий,manage_media,0
+запись можешь включить следующий,manage_media,0
+видео открыть можешь,manage_media,0
+фото открыть можешь,manage_media,0
+картинку открыть можешь,manage_media,0
+видео закрыть можешь,manage_media,0
+фото закрыть можешь,manage_media,0
+картинку закрыть можешь,manage_media,0
+видео включить можешь,manage_media,0
+видео остановить можешь,manage_media,0
+видео оставить на паузе можешь,manage_media,0
+фото оставить на паузе можешь,manage_media,0
+картинку оставить на паузе можешь,manage_media,0
+музыку оставить на паузе можешь,manage_media,0
+трек оставить на паузе можешь,manage_media,0
+запись оставить на паузе можешь,manage_media,0
+видео включить следующий можешь,manage_media,0
+фото включить следующий можешь,manage_media,0
+картинку включить следующий можешь,manage_media,0
+музыку включить следующий можешь,manage_media,0
+трек включить следующий можешь,manage_media,0
+запись включить следующий можешь,manage_media,0
+выключи компьютер,shutdown,1
+выключишь компьютер,shutdown,1
+выключи комп,shutdown,1
+выключишь комп,shutdown,1
+выключи ПК,shutdown,1
+выключишь ПК,shutdown,1
+выключи ноутбук,shutdown,1
+выключишь ноутбук,shutdown,1
+выключи ноут,shutdown,1
+выключишь ноут,shutdown,1
+выключи устройство,shutdown,1
+выключишь устройство,shutdown,1
+выруби компьютер,shutdown,1
+вырубишь компьютер,shutdown,1
+выруби комп,shutdown,1
+вырубишь комп,shutdown,1
+выруби ПК,shutdown,1
+вырубишь ПК,shutdown,1
+выруби ноутбук,shutdown,1
+вырубишь ноутбук,shutdown,1
+выруби ноут,shutdown,1
+вырубишь ноут,shutdown,1
+выруби устройство,shutdown,1
+вырубишь устройство,shutdown,1
+отключи компьютер,shutdown,1
+отключишь компьютер,shutdown,1
+отключи комп,shutdown,1
+отключишь комп,shutdown,1
+отключи ПК,shutdown,1
+отключишь ПК,shutdown,1
+отключи ноутбук,shutdown,1
+отключишь ноутбук,shutdown,1
+отключи ноут,shutdown,1
+отключишь ноут,shutdown,1
+отключи устройство,shutdown,1
+отключишь устройство,shutdown,1
+заверши работу компьютера,shutdown,1
+завершишь работу компьютера,shutdown,1
+заверши работу компа,shutdown,1
+завершишь работу компа,shutdown,1
+заверши работу ПК,shutdown,1
+завершишь работу ПК,shutdown,1
+заверши работу ноутбука,shutdown,1
+завершишь работу ноутбука,shutdown,1
+заверши работу ноута,shutdown,1
+завершишь работу ноута,shutdown,1
+заверши работу устройства,shutdown,1
+завершишь работу устройства,shutdown,1
+компьютер выключи,shutdown,1
+компьютер выключишь,shutdown,1
+комп выключи,shutdown,1
+комп выключишь,shutdown,1
+ПК выключи,shutdown,1
+ПК выключишь,shutdown,1
+ноутбук выключи,shutdown,1
+ноутбук выключишь,shutdown,1
+ноут выключи,shutdown,1
+ноут выключишь,shutdown,1
+устройство выключи,shutdown,1
+устройство выключишь,shutdown,1
+компьютер выруби,shutdown,1
+компьютер вырубишь,shutdown,1
+комп выруби,shutdown,1
+комп вырубишь,shutdown,1
+ПК выруби,shutdown,1
+ПК вырубишь,shutdown,1
+ноутбук выруби,shutdown,1
+ноутбук вырубишь,shutdown,1
+ноут выруби,shutdown,1
+ноут вырубишь,shutdown,1
+устройство выруби,shutdown,1
+устройство вырубишь,shutdown,1
+компьютер отключи,shutdown,1
+компьютер отключишь,shutdown,1
+комп отключи,shutdown,1
+комп отключишь,shutdown,1
+ПК отключи,shutdown,1
+ПК отключишь,shutdown,1
+ноутбук отключи,shutdown,1
+ноутбук отключишь,shutdown,1
+ноут отключи,shutdown,1
+ноут отключишь,shutdown,1
+устройство отключи,shutdown,1
+устройство отключишь,shutdown,1
+компьютера заверши работу,shutdown,1
+компьютера завершишь работу,shutdown,1
+компа заверши работу,shutdown,1
+компа завершишь работу,shutdown,1
+ПК заверши работу,shutdown,1
+ПК завершишь работу,shutdown,1
+ноутбука заверши работу,shutdown,1
+ноутбука завершишь работу,shutdown,1
+ноута заверши работу,shutdown,1
+ноута завершишь работу,shutdown,1
+устройства заверши работу,shutdown,1
+устройства завершишь работу,shutdown,1
+можешь выключить компьютер,shutdown,1
+можешь выключить комп,shutdown,1
+можешь выключить ПК,shutdown,1
+можешь выключить ноутбук,shutdown,1
+можешь выключить ноут,shutdown,1
+можешь выключить устройство,shutdown,1
+можешь вырубить компьютер,shutdown,1
+можешь вырубить комп,shutdown,1
+можешь вырубить ПК,shutdown,1
+можешь вырубить ноутбук,shutdown,1
+можешь вырубить ноут,shutdown,1
+можешь вырубить устройство,shutdown,1
+можешь отключить компьютер,shutdown,1
+можешь отключить комп,shutdown,1
+можешь отключить ПК,shutdown,1
+можешь отключить ноутбук,shutdown,1
+можешь отключить ноут,shutdown,1
+можешь отключить устройство,shutdown,1
+можешь завершить работу компьютера,shutdown,1
+можешь завершить работу компа,shutdown,1
+можешь завершить работу ПК,shutdown,1
+можешь завершить работу ноутбука,shutdown,1
+можешь завершить работу ноута,shutdown,1
+можешь завершить работу устройства,shutdown,1
+выключить можешь компьютер,shutdown,1
+выключить можешь комп,shutdown,1
+выключить можешь ПК,shutdown,1
+выключить можешь ноутбук,shutdown,1
+выключить можешь ноут,shutdown,1
+выключить можешь устройство,shutdown,1
+вырубить можешь компьютер,shutdown,1
+вырубить можешь комп,shutdown,1
+вырубить можешь ПК,shutdown,1
+вырубить можешь ноутбук,shutdown,1
+вырубить можешь ноут,shutdown,1
+вырубить можешь устройство,shutdown,1
+отключить можешь компьютер,shutdown,1
+отключить можешь комп,shutdown,1
+отключить можешь ПК,shutdown,1
+отключить можешь ноутбук,shutdown,1
+отключить можешь ноут,shutdown,1
+отключить можешь устройство,shutdown,1
+завершить работу можешь компьютера,shutdown,1
+завершить работу можешь компа,shutdown,1
+завершить работу можешь ПК,shutdown,1
+завершить работу можешь ноутбука,shutdown,1
+завершить работу можешь ноута,shutdown,1
+завершить работу можешь устройства,shutdown,1
+выключить компьютер можешь,shutdown,1
+выключить комп можешь,shutdown,1
+выключить ПК можешь,shutdown,1
+выключить ноутбук можешь,shutdown,1
+выключить ноут можешь,shutdown,1
+выключить устройство можешь,shutdown,1
+вырубить компьютер можешь,shutdown,1
+вырубить комп можешь,shutdown,1
+вырубить ПК можешь,shutdown,1
+вырубить ноутбук можешь,shutdown,1
+вырубить ноут можешь,shutdown,1
+вырубить устройство можешь,shutdown,1
+отключить компьютер можешь,shutdown,1
+отключить комп можешь,shutdown,1
+отключить ПК можешь,shutdown,1
+отключить ноутбук можешь,shutdown,1
+отключить ноут можешь,shutdown,1
+отключить устройство можешь,shutdown,1
+завершить работу компьютера можешь,shutdown,1
+завершить работу компа можешь,shutdown,1
+завершить работу ПК можешь,shutdown,1
+завершить работу ноутбука можешь,shutdown,1
+завершить работу ноута можешь,shutdown,1
+завершить работу устройства можешь,shutdown,1
+смени цвет лампы,change_lamp_color,2
+цвет смени лампы,change_lamp_color,2
+смени цвет лампочки,change_lamp_color,2
+цвет смени лампочки,change_lamp_color,2
+смени цвет светильника,change_lamp_color,2
+цвет смени светильника,change_lamp_color,2
+смени цвет светильничка,change_lamp_color,2
+цвет смени светильничка,change_lamp_color,2
+замени цвет лампы,change_lamp_color,2
+цвет замени лампы,change_lamp_color,2
+замени цвет лампочки,change_lamp_color,2
+цвет замени лампочки,change_lamp_color,2
+замени цвет светильника,change_lamp_color,2
+цвет замени светильника,change_lamp_color,2
+замени цвет светильничка,change_lamp_color,2
+цвет замени светильничка,change_lamp_color,2
+измени цвет лампы,change_lamp_color,2
+цвет измени лампы,change_lamp_color,2
+измени цвет лампочки,change_lamp_color,2
+цвет измени лампочки,change_lamp_color,2
+измени цвет светильника,change_lamp_color,2
+цвет измени светильника,change_lamp_color,2
+измени цвет светильничка,change_lamp_color,2
+цвет измени светильничка,change_lamp_color,2
+поменяй цвет лампы,change_lamp_color,2
+цвет поменяй лампы,change_lamp_color,2
+поменяй цвет лампочки,change_lamp_color,2
+цвет поменяй лампочки,change_lamp_color,2
+поменяй цвет светильника,change_lamp_color,2
+цвет поменяй светильника,change_lamp_color,2
+поменяй цвет светильничка,change_lamp_color,2
+цвет поменяй светильничка,change_lamp_color,2
+сменишь цвет лампы,change_lamp_color,2
+цвет сменишь лампы,change_lamp_color,2
+сменишь цвет лампочки,change_lamp_color,2
+цвет сменишь лампочки,change_lamp_color,2
+сменишь цвет светильника,change_lamp_color,2
+цвет сменишь светильника,change_lamp_color,2
+сменишь цвет светильничка,change_lamp_color,2
+цвет сменишь светильничка,change_lamp_color,2
+заменишь цвет лампы,change_lamp_color,2
+цвет заменишь лампы,change_lamp_color,2
+заменишь цвет лампочки,change_lamp_color,2
+цвет заменишь лампочки,change_lamp_color,2
+заменишь цвет светильника,change_lamp_color,2
+цвет заменишь светильника,change_lamp_color,2
+заменишь цвет светильничка,change_lamp_color,2
+цвет заменишь светильничка,change_lamp_color,2
+изменишь цвет лампы,change_lamp_color,2
+цвет изменишь лампы,change_lamp_color,2
+изменишь цвет лампочки,change_lamp_color,2
+цвет изменишь лампочки,change_lamp_color,2
+изменишь цвет светильника,change_lamp_color,2
+цвет изменишь светильника,change_lamp_color,2
+изменишь цвет светильничка,change_lamp_color,2
+цвет изменишь светильничка,change_lamp_color,2
+поменяешь цвет лампы,change_lamp_color,2
+цвет поменяешь лампы,change_lamp_color,2
+поменяешь цвет лампочки,change_lamp_color,2
+цвет поменяешь лампочки,change_lamp_color,2
+поменяешь цвет светильника,change_lamp_color,2
+цвет поменяешь светильника,change_lamp_color,2
+поменяешь цвет светильничка,change_lamp_color,2
+цвет поменяешь светильничка,change_lamp_color,2
+можешь сменить цвет лампы,change_lamp_color,2
+сменить цвет лампы можешь,change_lamp_color,2
+можешь цвет сменить лампы,change_lamp_color,2
+цвет сменить лампы можешь,change_lamp_color,2
+можешь сменить цвет лампочки,change_lamp_color,2
+сменить цвет лампочки можешь,change_lamp_color,2
+можешь цвет сменить лампочки,change_lamp_color,2
+цвет сменить лампочки можешь,change_lamp_color,2
+можешь сменить цвет светильника,change_lamp_color,2
+сменить цвет светильника можешь,change_lamp_color,2
+можешь цвет сменить светильника,change_lamp_color,2
+цвет сменить светильника можешь,change_lamp_color,2
+можешь сменить цвет светильничка,change_lamp_color,2
+сменить цвет светильничка можешь,change_lamp_color,2
+можешь цвет сменить светильничка,change_lamp_color,2
+цвет сменить светильничка можешь,change_lamp_color,2
+можешь заменить цвет лампы,change_lamp_color,2
+заменить цвет лампы можешь,change_lamp_color,2
+можешь цвет заменить лампы,change_lamp_color,2
+цвет заменить лампы можешь,change_lamp_color,2
+можешь заменить цвет лампочки,change_lamp_color,2
+заменить цвет лампочки можешь,change_lamp_color,2
+можешь цвет заменить лампочки,change_lamp_color,2
+цвет заменить лампочки можешь,change_lamp_color,2
+можешь заменить цвет светильника,change_lamp_color,2
+заменить цвет светильника можешь,change_lamp_color,2
+можешь цвет заменить светильника,change_lamp_color,2
+цвет заменить светильника можешь,change_lamp_color,2
+можешь заменить цвет светильничка,change_lamp_color,2
+заменить цвет светильничка можешь,change_lamp_color,2
+можешь цвет заменить светильничка,change_lamp_color,2
+цвет заменить светильничка можешь,change_lamp_color,2
+можешь изменить цвет лампы,change_lamp_color,2
+изменить цвет лампы можешь,change_lamp_color,2
+можешь цвет изменить лампы,change_lamp_color,2
+цвет изменить лампы можешь,change_lamp_color,2
+можешь изменить цвет лампочки,change_lamp_color,2
+изменить цвет лампочки можешь,change_lamp_color,2
+можешь цвет изменить лампочки,change_lamp_color,2
+цвет изменить лампочки можешь,change_lamp_color,2
+можешь изменить цвет светильника,change_lamp_color,2
+изменить цвет светильника можешь,change_lamp_color,2
+можешь цвет изменить светильника,change_lamp_color,2
+цвет изменить светильника можешь,change_lamp_color,2
+можешь изменить цвет светильничка,change_lamp_color,2
+изменить цвет светильничка можешь,change_lamp_color,2
+можешь цвет изменить светильничка,change_lamp_color,2
+цвет изменить светильничка можешь,change_lamp_color,2
+можешь поменять цвет лампы,change_lamp_color,2
+поменять цвет лампы можешь,change_lamp_color,2
+можешь цвет поменять лампы,change_lamp_color,2
+цвет поменять лампы можешь,change_lamp_color,2
+можешь поменять цвет лампочки,change_lamp_color,2
+поменять цвет лампочки можешь,change_lamp_color,2
+можешь цвет поменять лампочки,change_lamp_color,2
+цвет поменять лампочки можешь,change_lamp_color,2
+можешь поменять цвет светильника,change_lamp_color,2
+поменять цвет светильника можешь,change_lamp_color,2
+можешь цвет поменять светильника,change_lamp_color,2
+цвет поменять светильника можешь,change_lamp_color,2
+можешь поменять цвет светильничка,change_lamp_color,2
+поменять цвет светильничка можешь,change_lamp_color,2
+можешь цвет поменять светильничка,change_lamp_color,2
+цвет поменять светильничка можешь,change_lamp_color,2
+открой программу,open_programm,3
+открой прогу,open_programm,3
+открой приложение,open_programm,3
+открой апп,open_programm,3
+открой прилку,open_programm,3
+открой приложуху,open_programm,3
+включи программу,open_programm,3
+включи прогу,open_programm,3
+включи приложение,open_programm,3
+включи апп,open_programm,3
+включи прилку,open_programm,3
+включи приложуху,open_programm,3
+запусти программу,open_programm,3
+запусти прогу,open_programm,3
+запусти приложение,open_programm,3
+запусти апп,open_programm,3
+запусти прилку,open_programm,3
+запусти приложуху,open_programm,3
+программу открой,open_programm,3
+прогу открой,open_programm,3
+приложение открой,open_programm,3
+апп открой,open_programm,3
+прилку открой,open_programm,3
+приложуху открой,open_programm,3
+программу включи,open_programm,3
+прогу включи,open_programm,3
+приложение включи,open_programm,3
+апп включи,open_programm,3
+прилку включи,open_programm,3
+приложуху включи,open_programm,3
+программу запусти,open_programm,3
+прогу запусти,open_programm,3
+приложение запусти,open_programm,3
+апп запусти,open_programm,3
+прилку запусти,open_programm,3
+приложуху запусти,open_programm,3
+открой,open_programm,3
+включи,open_programm,3
+запусти,open_programm,3
+откроешь программу,open_programm,3
+откроешь прогу,open_programm,3
+откроешь приложение,open_programm,3
+откроешь апп,open_programm,3
+откроешь прилку,open_programm,3
+откроешь приложуху,open_programm,3
+включишь программу,open_programm,3
+включишь прогу,open_programm,3
+включишь приложение,open_programm,3
+включишь апп,open_programm,3
+включишь прилку,open_programm,3
+включишь приложуху,open_programm,3
+запустишь программу,open_programm,3
+запустишь прогу,open_programm,3
+запустишь приложение,open_programm,3
+запустишь апп,open_programm,3
+запустишь прилку,open_programm,3
+запустишь приложуху,open_programm,3
+программу откроешь,open_programm,3
+прогу откроешь,open_programm,3
+приложение откроешь,open_programm,3
+апп откроешь,open_programm,3
+прилку откроешь,open_programm,3
+приложуху откроешь,open_programm,3
+программу включишь,open_programm,3
+прогу включишь,open_programm,3
+приложение включишь,open_programm,3
+апп включишь,open_programm,3
+прилку включишь,open_programm,3
+приложуху включишь,open_programm,3
+программу запустишь,open_programm,3
+прогу запустишь,open_programm,3
+приложение запустишь,open_programm,3
+апп запустишь,open_programm,3
+прилку запустишь,open_programm,3
+приложуху запустишь,open_programm,3
+можешь открыть программу,open_programm,3
+можешь открыть прогу,open_programm,3
+можешь открыть приложение,open_programm,3
+можешь открыть апп,open_programm,3
+можешь открыть прилку,open_programm,3
+можешь открыть приложуху,open_programm,3
+можешь включить программу,open_programm,3
+можешь включить прогу,open_programm,3
+можешь включить приложение,open_programm,3
+можешь включить апп,open_programm,3
+можешь включить прилку,open_programm,3
+можешь включить приложуху,open_programm,3
+можешь запустить программу,open_programm,3
+можешь запустить прогу,open_programm,3
+можешь запустить приложение,open_programm,3
+можешь запустить апп,open_programm,3
+можешь запустить прилку,open_programm,3
+можешь запустить приложуху,open_programm,3
+открыть можешь программу,open_programm,3
+открыть можешь прогу,open_programm,3
+открыть можешь приложение,open_programm,3
+открыть можешь апп,open_programm,3
+открыть можешь прилку,open_programm,3
+открыть можешь приложуху,open_programm,3
+включить можешь программу,open_programm,3
+включить можешь прогу,open_programm,3
+включить можешь приложение,open_programm,3
+включить можешь апп,open_programm,3
+включить можешь прилку,open_programm,3
+включить можешь приложуху,open_programm,3
+запустить можешь программу,open_programm,3
+запустить можешь прогу,open_programm,3
+запустить можешь приложение,open_programm,3
+запустить можешь апп,open_programm,3
+запустить можешь прилку,open_programm,3
+запустить можешь приложуху,open_programm,3
+открыть программу можешь,open_programm,3
+открыть прогу можешь,open_programm,3
+открыть приложение можешь,open_programm,3
+открыть апп можешь,open_programm,3
+открыть прилку можешь,open_programm,3
+открыть приложуху можешь,open_programm,3
+включить программу можешь,open_programm,3
+включить прогу можешь,open_programm,3
+включить приложение можешь,open_programm,3
+включить апп можешь,open_programm,3
+включить прилку можешь,open_programm,3
+включить приложуху можешь,open_programm,3
+запустить программу можешь,open_programm,3
+запустить прогу можешь,open_programm,3
+запустить приложение можешь,open_programm,3
+запустить апп можешь,open_programm,3
+запустить прилку можешь,open_programm,3
+запустить приложуху можешь,open_programm,3
+расскажи анекдот про бомжа и бумажку,tell_definite_anecdote,4
+анекдот про бомжа и бумажку расскажи,tell_definite_anecdote,4
+расскажи анекдот про бездомного и бумажку,tell_definite_anecdote,4
+анекдот про бездомного и бумажку расскажи,tell_definite_anecdote,4
+расскажи анекдот про бездомного и бумагу,tell_definite_anecdote,4
+анекдот про бездомного и бумагу расскажи,tell_definite_anecdote,4
+расскажи анекдот про бомжа и бумагу,tell_definite_anecdote,4
+анекдот про бомжа и бумагу расскажи,tell_definite_anecdote,4
+расскажи анек про бомжа и бумажку,tell_definite_anecdote,4
+анек про бомжа и бумажку расскажи,tell_definite_anecdote,4
+расскажи анек про бездомного и бумажку,tell_definite_anecdote,4
+анек про бездомного и бумажку расскажи,tell_definite_anecdote,4
+расскажи анек про бездомного и бумагу,tell_definite_anecdote,4
+анек про бездомного и бумагу расскажи,tell_definite_anecdote,4
+расскажи анек про бомжа и бумагу,tell_definite_anecdote,4
+анек про бомжа и бумагу расскажи,tell_definite_anecdote,4
+расскажи историю про бомжа и бумажку,tell_definite_anecdote,4
+историю про бомжа и бумажку расскажи,tell_definite_anecdote,4
+расскажи историю про бездомного и бумажку,tell_definite_anecdote,4
+историю про бездомного и бумажку расскажи,tell_definite_anecdote,4
+расскажи историю про бездомного и бумагу,tell_definite_anecdote,4
+историю про бездомного и бумагу расскажи,tell_definite_anecdote,4
+расскажи историю про бомжа и бумагу,tell_definite_anecdote,4
+историю про бомжа и бумагу расскажи,tell_definite_anecdote,4
+расскажи шутку про бомжа и бумажку,tell_definite_anecdote,4
+шутку про бомжа и бумажку расскажи,tell_definite_anecdote,4
+расскажи шутку про бездомного и бумажку,tell_definite_anecdote,4
+шутку про бездомного и бумажку расскажи,tell_definite_anecdote,4
+расскажи шутку про бездомного и бумагу,tell_definite_anecdote,4
+шутку про бездомного и бумагу расскажи,tell_definite_anecdote,4
+расскажи шутку про бомжа и бумагу,tell_definite_anecdote,4
+шутку про бомжа и бумагу расскажи,tell_definite_anecdote,4
+расскажешь анекдот про бомжа и бумажку,tell_definite_anecdote,4
+анекдот про бомжа и бумажку расскажешь,tell_definite_anecdote,4
+расскажешь анекдот про бездомного и бумажку,tell_definite_anecdote,4
+анекдот про бездомного и бумажку расскажешь,tell_definite_anecdote,4
+расскажешь анекдот про бездомного и бумагу,tell_definite_anecdote,4
+анекдот про бездомного и бумагу расскажешь,tell_definite_anecdote,4
+расскажешь анекдот про бомжа и бумагу,tell_definite_anecdote,4
+анекдот про бомжа и бумагу расскажешь,tell_definite_anecdote,4
+расскажешь анек про бомжа и бумажку,tell_definite_anecdote,4
+анек про бомжа и бумажку расскажешь,tell_definite_anecdote,4
+расскажешь анек про бездомного и бумажку,tell_definite_anecdote,4
+анек про бездомного и бумажку расскажешь,tell_definite_anecdote,4
+расскажешь анек про бездомного и бумагу,tell_definite_anecdote,4
+анек про бездомного и бумагу расскажешь,tell_definite_anecdote,4
+расскажешь анек про бомжа и бумагу,tell_definite_anecdote,4
+анек про бомжа и бумагу расскажешь,tell_definite_anecdote,4
+расскажешь историю про бомжа и бумажку,tell_definite_anecdote,4
+историю про бомжа и бумажку расскажешь,tell_definite_anecdote,4
+расскажешь историю про бездомного и бумажку,tell_definite_anecdote,4
+историю про бездомного и бумажку расскажешь,tell_definite_anecdote,4
+расскажешь историю про бездомного и бумагу,tell_definite_anecdote,4
+историю про бездомного и бумагу расскажешь,tell_definite_anecdote,4
+расскажешь историю про бомжа и бумагу,tell_definite_anecdote,4
+историю про бомжа и бумагу расскажешь,tell_definite_anecdote,4
+расскажешь шутку про бомжа и бумажку,tell_definite_anecdote,4
+шутку про бомжа и бумажку расскажешь,tell_definite_anecdote,4
+расскажешь шутку про бездомного и бумажку,tell_definite_anecdote,4
+шутку про бездомного и бумажку расскажешь,tell_definite_anecdote,4
+расскажешь шутку про бездомного и бумагу,tell_definite_anecdote,4
+шутку про бездомного и бумагу расскажешь,tell_definite_anecdote,4
+расскажешь шутку про бомжа и бумагу,tell_definite_anecdote,4
+шутку про бомжа и бумагу расскажешь,tell_definite_anecdote,4
+можешь рассказать анекдот про бомжа и бумажку,tell_definite_anecdote,4
+рассказать анекдот про бомжа и бумажку можешь,tell_definite_anecdote,4
+можешь анекдот про бомжа и бумажку расскажешь,tell_definite_anecdote,4
+анекдот про бомжа и бумажку расскажешь можешь,tell_definite_anecdote,4
+можешь рассказать анекдот про бездомного и бумажку,tell_definite_anecdote,4
+рассказать анекдот про бездомного и бумажку можешь,tell_definite_anecdote,4
+можешь анекдот про бездомного и бумажку расскажешь,tell_definite_anecdote,4
+анекдот про бездомного и бумажку расскажешь можешь,tell_definite_anecdote,4
+можешь рассказать анекдот про бездомного и бумагу,tell_definite_anecdote,4
+рассказать анекдот про бездомного и бумагу можешь,tell_definite_anecdote,4
+можешь анекдот про бездомного и бумагу расскажешь,tell_definite_anecdote,4
+анекдот про бездомного и бумагу расскажешь можешь,tell_definite_anecdote,4
+можешь рассказать анекдот про бомжа и бумагу,tell_definite_anecdote,4
+рассказать анекдот про бомжа и бумагу можешь,tell_definite_anecdote,4
+можешь анекдот про бомжа и бумагу расскажешь,tell_definite_anecdote,4
+анекдот про бомжа и бумагу расскажешь можешь,tell_definite_anecdote,4
+можешь рассказать анек про бомжа и бумажку,tell_definite_anecdote,4
+рассказать анек про бомжа и бумажку можешь,tell_definite_anecdote,4
+можешь анек про бомжа и бумажку расскажешь,tell_definite_anecdote,4
+анек про бомжа и бумажку расскажешь можешь,tell_definite_anecdote,4
+можешь рассказать анек про бездомного и бумажку,tell_definite_anecdote,4
+рассказать анек про бездомного и бумажку можешь,tell_definite_anecdote,4
+можешь анек про бездомного и бумажку расскажешь,tell_definite_anecdote,4
+анек про бездомного и бумажку расскажешь можешь,tell_definite_anecdote,4
+можешь рассказать анек про бездомного и бумагу,tell_definite_anecdote,4
+рассказать анек про бездомного и бумагу можешь,tell_definite_anecdote,4
+можешь анек про бездомного и бумагу расскажешь,tell_definite_anecdote,4
+анек про бездомного и бумагу расскажешь можешь,tell_definite_anecdote,4
+можешь рассказать анек про бомжа и бумагу,tell_definite_anecdote,4
+рассказать анек про бомжа и бумагу можешь,tell_definite_anecdote,4
+можешь анек про бомжа и бумагу расскажешь,tell_definite_anecdote,4
+анек про бомжа и бумагу расскажешь можешь,tell_definite_anecdote,4
+можешь рассказать историю про бомжа и бумажку,tell_definite_anecdote,4
+рассказать историю про бомжа и бумажку можешь,tell_definite_anecdote,4
+можешь историю про бомжа и бумажку расскажешь,tell_definite_anecdote,4
+историю про бомжа и бумажку расскажешь можешь,tell_definite_anecdote,4
+можешь рассказать историю про бездомного и бумажку,tell_definite_anecdote,4
+рассказать историю про бездомного и бумажку можешь,tell_definite_anecdote,4
+можешь историю про бездомного и бумажку расскажешь,tell_definite_anecdote,4
+историю про бездомного и бумажку расскажешь можешь,tell_definite_anecdote,4
+можешь рассказать историю про бездомного и бумагу,tell_definite_anecdote,4
+рассказать историю про бездомного и бумагу можешь,tell_definite_anecdote,4
+можешь историю про бездомного и бумагу расскажешь,tell_definite_anecdote,4
+историю про бездомного и бумагу расскажешь можешь,tell_definite_anecdote,4
+можешь рассказать историю про бомжа и бумагу,tell_definite_anecdote,4
+рассказать историю про бомжа и бумагу можешь,tell_definite_anecdote,4
+можешь историю про бомжа и бумагу расскажешь,tell_definite_anecdote,4
+историю про бомжа и бумагу расскажешь можешь,tell_definite_anecdote,4
+можешь рассказать шутку про бомжа и бумажку,tell_definite_anecdote,4
+рассказать шутку про бомжа и бумажку можешь,tell_definite_anecdote,4
+можешь шутку про бомжа и бумажку расскажешь,tell_definite_anecdote,4
+шутку про бомжа и бумажку расскажешь можешь,tell_definite_anecdote,4
+можешь рассказать шутку про бездомного и бумажку,tell_definite_anecdote,4
+рассказать шутку про бездомного и бумажку можешь,tell_definite_anecdote,4
+можешь шутку про бездомного и бумажку расскажешь,tell_definite_anecdote,4
+шутку про бездомного и бумажку расскажешь можешь,tell_definite_anecdote,4
+можешь рассказать шутку про бездомного и бумагу,tell_definite_anecdote,4
+рассказать шутку про бездомного и бумагу можешь,tell_definite_anecdote,4
+можешь шутку про бездомного и бумагу расскажешь,tell_definite_anecdote,4
+шутку про бездомного и бумагу расскажешь можешь,tell_definite_anecdote,4
+можешь рассказать шутку про бомжа и бумагу,tell_definite_anecdote,4
+рассказать шутку про бомжа и бумагу можешь,tell_definite_anecdote,4
+можешь шутку про бомжа и бумагу расскажешь,tell_definite_anecdote,4
+шутку про бомжа и бумагу расскажешь можешь,tell_definite_anecdote,4
+трудности делают человека сильнее,philosophical_talk,5
+существует ли судьба,philosophical_talk,5
+"влияет ли имя человека на личность, которой он становится",philosophical_talk,5
+"откуда у человека появилось понятие самооценки, если он произошел от обезьяны",philosophical_talk,5
+"почему мы судим себя по своим намерениям, но других судим по их действиям",philosophical_talk,5
+"какова вероятность того, что люди просуществуют еще 1000 лет, не уничтожив себя",philosophical_talk,5
+у добрых дел должен быть мотив или нет,philosophical_talk,5
+"какие бы два вопроса вы задали, чтобы получить больше информации о том, что такое человек",philosophical_talk,5
+можно ли изменить природу человека,philosophical_talk,5
+"почему мы стремимся к совершенству, если оно недостижимо",philosophical_talk,5
+в чем заключается самая большая растрата человеческого потенциала,philosophical_talk,5
+что полезнее - разум или мудрость,philosophical_talk,5
+почему мы мечтаем,philosophical_talk,5
+"где грань между искусством, вандализмом и ремеслом",philosophical_talk,5
+человеку лучше быть знающим и начитанным или мудрым,philosophical_talk,5
+является ли страдание необходимой частью состояния души человека,philosophical_talk,5
+"какими были бы люди, если бы они никогда не страдали",philosophical_talk,5
+какую пользу приносит мастерство искусству,philosophical_talk,5
+вредит ли искусство обществу,philosophical_talk,5
+есть ли смысл в жизни,philosophical_talk,5
+является ли смысл жизни одинаковым для животных и людей,philosophical_talk,5
+что значит жить хорошей жизнью,philosophical_talk,5
+можно ли жить нормальной жизнью и никогда не лгать,philosophical_talk,5
+какие действия в нашей жизни будут иметь самые продолжительные последствия,philosophical_talk,5
+как долго они будут ощущаться,philosophical_talk,5
+"как изменится человечество, если продолжительность жизни всех людей возрастет, скажем, до 500 лет",philosophical_talk,5
+в чем вы находите смысл своей жизни,philosophical_talk,5
+"что должен испытать хотя бы раз в жизни каждый человек, чтобы понять ее смысл",philosophical_talk,5
+для здоровой и полноценной жизни важно умение играть и веселиться,philosophical_talk,5
+"как вы думаете, в чем стоит искать смысл в жизни",philosophical_talk,5
+"является ли жизнь достойной и стоящей, если в ней основное внимание уделяется поиску удовольствий и желанию всячески избежать страданий",philosophical_talk,5
+"что заставляет вас чувствовать, что вы живете полной жизнью",philosophical_talk,5
+может ли жизнь быть значимой и настоящей без друзей,philosophical_talk,5
+в чем смысл хорошей жизни,philosophical_talk,5
+есть ли идеальная жизнь,philosophical_talk,5
+в человеческой жизни есть первопричина или нет,philosophical_talk,5
+смерть - это новое начало жизни или ее конец,philosophical_talk,5
+"если жизнь после смерти существует, тогда, почему никто не хочет умирать",philosophical_talk,5
+"как лучше всего распорядиться своей жизнью, чтобы не зря ее прожить",philosophical_talk,5
+личность человека формируют природа или воспитание,philosophical_talk,5
+что такое свобода,philosophical_talk,5
+возможна ли настоящая свобода,philosophical_talk,5
+"можем ли мы знать, что такое счастье без страданий",philosophical_talk,5
+что происходит с человеком после его смерти,philosophical_talk,5
+можно ли понять добро без зла,philosophical_talk,5
+"что такое, правда и реальность",philosophical_talk,5
+есть ли у животных души,philosophical_talk,5
+чем отличается души людей от душ животных,philosophical_talk,5
+каков смысл и цель жизни,philosophical_talk,5
+что такое любовь,philosophical_talk,5
+"есть ли такая вещи, как свобода воли и право выбора",philosophical_talk,5
+бог есть,philosophical_talk,5
+"откуда вы знаете, что Бог существует",philosophical_talk,5
+как началась жизнь,philosophical_talk,5
+что такое счастье,philosophical_talk,5
+мы одни во Вселенной,philosophical_talk,5
+что делает нас людьми,philosophical_talk,5
+можем ли мы жить вечно,philosophical_talk,5
+"возможно, ли путешествие во времени",philosophical_talk,5
+в чем разница между справедливостью и местью,philosophical_talk,5
+"как определить, что является злом, а что нет",philosophical_talk,5
+является ли бедность в обществе неизбежной,philosophical_talk,5
+оружие защищает людей или уничтожает их,philosophical_talk,5
+прекратится ли расизм,philosophical_talk,5
+почему красота связана с моралью,philosophical_talk,5
+есть ли сила выше Бога,philosophical_talk,5
+"почему мы уважаем мертвых больше, чем живых",philosophical_talk,5
+"будет ли мир лучше, если национализм и религия перестанут существовать",philosophical_talk,5
+является ли война единственным способом достижения мира,philosophical_talk,5
+истинная красота — понятие объективное или субъективное,philosophical_talk,5
+какую степень свободы должны иметь люди,philosophical_talk,5
+в чем смысл богатых и бедных в современном мире,philosophical_talk,5
+без знания философия можно найти хорошую работу,philosophical_talk,5
+есть ли прогресс в философии,philosophical_talk,5
+должны ли мы бояться смерти,philosophical_talk,5
+могут ли войны быть справедливыми,philosophical_talk,5
+допустим ли аборт или нет,philosophical_talk,5
+может ли быть мораль без Бога,philosophical_talk,5
+у времени есть начало или конец,philosophical_talk,5
+оправданы ли пытки,philosophical_talk,5
+всегда ли хорошо иметь выбор,philosophical_talk,5
+"что важнее, справедливость или милосердие",philosophical_talk,5
+будет ли когда-нибудь возможно путешествовать во времени,philosophical_talk,5
+что такое сны и почему они у нас есть,philosophical_talk,5
+насколько актуальна семья в современном мире,philosophical_talk,5
+можно ли считать человека «образованным» без формального образования,philosophical_talk,5
+"что лучше: сыграть в хорошую игру и проиграть, или обманом сыграть в «плохую» игру и выиграть",philosophical_talk,5
+"люди говорят, что деньги не могут купить счастье, но можно ли быть по-настоящему счастливым без денег",philosophical_talk,5
+могут ли животные «думать» или «рассуждать»,philosophical_talk,5
+какими правами обладают животные,philosophical_talk,5
+почему не каждый человек может быть гением,philosophical_talk,5
+"должны ли правительства наказывать тех, кто ведет нездоровый образ жизни",philosophical_talk,5
+этот мир будет лучше или хуже без учителей и формального образования,philosophical_talk,5
+"почему мы выбрасываем еду, когда знаем, что люди умирают от голода",philosophical_talk,5
+"если мы живем в цивилизованном мире, тогда почему так много различий между богатыми и бедными",philosophical_talk,5
+человек контролирует технологию или технология контролирует нас,philosophical_talk,5
+"есть ли такая вещь, как хорошая смерть",philosophical_talk,5
+"разум или мудрость, что важнее для лучшего мира",philosophical_talk,5
+являются ли убеждения и суеверия одинаковыми,philosophical_talk,5
+"почему мы делаем то, что нам не нравится",philosophical_talk,5
+у атеистов есть собственные боги,philosophical_talk,5
