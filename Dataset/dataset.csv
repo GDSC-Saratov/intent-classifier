@@ -1,0 +1,376 @@
+sequence,intent,label
+выключи персональный компьютер этот,shutdown,0
+выключи компьютер этот,shutdown,0
+выключи персональный комп этот,shutdown,0
+выключи ПК этот,shutdown,0
+выключи комп этот,shutdown,0
+выключи ноутбук этот,shutdown,0
+выключи ноут этот,shutdown,0
+выключи персональный компьютер сей,shutdown,0
+выключи компьютер сей,shutdown,0
+выключи персональный комп сей,shutdown,0
+выключи ПК сей,shutdown,0
+выключи комп сей,shutdown,0
+выключи ноутбук сей,shutdown,0
+выключи ноут сей,shutdown,0
+выключи персональный компьютер данный,shutdown,0
+выключи компьютер данный,shutdown,0
+выключи персональный комп данный,shutdown,0
+выключи ПК данный,shutdown,0
+выключи комп данный,shutdown,0
+выключи ноутбук данный,shutdown,0
+выключи ноут данный,shutdown,0
+выключи персональный компьютер мой,shutdown,0
+выключи компьютер мой,shutdown,0
+выключи персональный комп мой,shutdown,0
+выключи ПК мой,shutdown,0
+выключи комп мой,shutdown,0
+выключи ноутбук мой,shutdown,0
+выключи ноут мой,shutdown,0
+выключи персональный компьютер,shutdown,0
+выключи компьютер,shutdown,0
+выключи персональный комп,shutdown,0
+выключи ПК,shutdown,0
+выключи комп,shutdown,0
+выключи ноутбук,shutdown,0
+выключи ноут,shutdown,0
+персональный компьютер выключи этот,shutdown,0
+комп выключи этот,shutdown,0
+компьютер выруби этот,shutdown,0
+ноутбук выруби этот,shutdown,0
+персональный комп отключи этот,shutdown,0
+ноут отключи этот,shutdown,0
+ПК обесточь этот,shutdown,0
+персональный компьютер выключи сей,shutdown,0
+комп выключи сей,shutdown,0
+компьютер выруби сей,shutdown,0
+ноутбук выруби сей,shutdown,0
+персональный комп отключи сей,shutdown,0
+ноут отключи сей,shutdown,0
+ПК обесточь сей,shutdown,0
+персональный компьютер выключи данный,shutdown,0
+комп выключи данный,shutdown,0
+компьютер выруби данный,shutdown,0
+ноутбук выруби данный,shutdown,0
+персональный комп отключи данный,shutdown,0
+ноут отключи данный,shutdown,0
+ПК обесточь данный,shutdown,0
+персональный компьютер выключи мой,shutdown,0
+комп выключи мой,shutdown,0
+компьютер выруби мой,shutdown,0
+ноутбук выруби мой,shutdown,0
+персональный комп отключи мой,shutdown,0
+ноут отключи мой,shutdown,0
+включи музыку,manage_media,1
+переключи музыку,manage_media,1
+приостанови музыку,manage_media,1
+прекрати музыку,manage_media,1
+продолжи музычку,manage_media,1
+останови музычку,manage_media,1
+отключи музычку,manage_media,1
+воспроизведи музяку,manage_media,1
+переключи на следующую музяку,manage_media,1
+оставь на паузе музяку,manage_media,1
+вруби музыку эту,manage_media,1
+следующую музыку эту,manage_media,1
+поставь на паузу музыку эту,manage_media,1
+включи музычку эту,manage_media,1
+переключи музычку эту,manage_media,1
+приостанови музычку эту,manage_media,1
+прекрати музычку эту,manage_media,1
+продолжи музяку эту,manage_media,1
+останови музяку эту,manage_media,1
+отключи музяку эту,manage_media,1
+воспроизведи музыку данную,manage_media,1
+переключи на следующую музыку данную,manage_media,1
+оставь на паузе музыку данную,manage_media,1
+вруби музычку данную,manage_media,1
+следующую музычку данную,manage_media,1
+поставь на паузу музычку данную,manage_media,1
+включи музяку данную,manage_media,1
+переключи музяку данную,manage_media,1
+приостанови музяку данную,manage_media,1
+прекрати музяку данную,manage_media,1
+продолжи музыку сию,manage_media,1
+останови музыку сию,manage_media,1
+отключи музыку сию,manage_media,1
+воспроизведи музычку сию,manage_media,1
+переключи на следующую музычку сию,manage_media,1
+оставь на паузе музычку сию,manage_media,1
+вруби музяку сию,manage_media,1
+следующую музяку сию,manage_media,1
+поставь на паузу музяку сию,manage_media,1
+включи музыку мою,manage_media,1
+переключи музыку мою,manage_media,1
+приостанови музыку мою,manage_media,1
+прекрати музыку мою,manage_media,1
+продолжи музычку мою,manage_media,1
+останови музычку мою,manage_media,1
+отключи музычку мою,manage_media,1
+воспроизведи музяку мою,manage_media,1
+переключи на следующую музяку мою,manage_media,1
+оставь на паузе музяку мою,manage_media,1
+вруби музыку,manage_media,1
+следующую музыку,manage_media,1
+поставь на паузу музыку,manage_media,1
+включи музычку,manage_media,1
+переключи музычку,manage_media,1
+приостанови музычку,manage_media,1
+прекрати музычку,manage_media,1
+продолжи музяку,manage_media,1
+останови музяку,manage_media,1
+отключи музяку,manage_media,1
+музяку включи эту,manage_media,1
+музыку воспроизведи эту,manage_media,1
+музычку продолжи эту,manage_media,1
+музяку переключи эту,manage_media,1
+музыку переключи на следующую эту,manage_media,1
+смени цвет лампы моей,change_lamp_color,2
+измени цвет лампы моей,change_lamp_color,2
+поменяй цвет лампы моей,change_lamp_color,2
+замени окраску лампы моей,change_lamp_color,2
+смени окраску лампы моей,change_lamp_color,2
+измени окраску лампы моей,change_lamp_color,2
+поменяй окраску лампы моей,change_lamp_color,2
+замени цвет лампочки моей,change_lamp_color,2
+смени цвет лампочки моей,change_lamp_color,2
+измени цвет лампочки моей,change_lamp_color,2
+поменяй цвет лампочки моей,change_lamp_color,2
+замени окраску лампочки моей,change_lamp_color,2
+смени окраску лампочки моей,change_lamp_color,2
+измени окраску лампочки моей,change_lamp_color,2
+поменяй окраску лампочки моей,change_lamp_color,2
+замени цвет лампы,change_lamp_color,2
+смени цвет лампы,change_lamp_color,2
+измени цвет лампы,change_lamp_color,2
+поменяй цвет лампы,change_lamp_color,2
+замени окраску лампы,change_lamp_color,2
+смени окраску лампы,change_lamp_color,2
+измени окраску лампы,change_lamp_color,2
+поменяй окраску лампы,change_lamp_color,2
+замени цвет лампочки,change_lamp_color,2
+смени цвет лампочки,change_lamp_color,2
+измени цвет лампочки,change_lamp_color,2
+поменяй цвет лампочки,change_lamp_color,2
+замени окраску лампочки,change_lamp_color,2
+смени окраску лампочки,change_lamp_color,2
+измени окраску лампочки,change_lamp_color,2
+поменяй окраску лампочки,change_lamp_color,2
+замени цвет светильника моего,change_lamp_color,2
+смени цвет светильника моего,change_lamp_color,2
+измени цвет светильника моего,change_lamp_color,2
+поменяй цвет светильника моего,change_lamp_color,2
+замени окраску светильника моего,change_lamp_color,2
+смени окраску светильника моего,change_lamp_color,2
+измени окраску светильника моего,change_lamp_color,2
+поменяй окраску светильника моего,change_lamp_color,2
+замени цвет светильничка моего,change_lamp_color,2
+смени цвет светильничка моего,change_lamp_color,2
+измени цвет светильничка моего,change_lamp_color,2
+поменяй цвет светильничка моего,change_lamp_color,2
+замени окраску светильничка моего,change_lamp_color,2
+смени окраску светильничка моего,change_lamp_color,2
+измени окраску светильничка моего,change_lamp_color,2
+поменяй окраску светильничка моего,change_lamp_color,2
+замени цвет светильника,change_lamp_color,2
+смени цвет светильника,change_lamp_color,2
+измени цвет светильника,change_lamp_color,2
+поменяй цвет светильника,change_lamp_color,2
+замени окраску светильника,change_lamp_color,2
+смени окраску светильника,change_lamp_color,2
+измени окраску светильника,change_lamp_color,2
+поменяй окраску светильника,change_lamp_color,2
+замени цвет светильничка,change_lamp_color,2
+смени цвет светильничка,change_lamp_color,2
+измени цвет светильничка,change_lamp_color,2
+поменяй цвет светильничка,change_lamp_color,2
+замени окраску светильничка,change_lamp_color,2
+смени окраску светильничка,change_lamp_color,2
+измени окраску светильничка,change_lamp_color,2
+поменяй окраску светильничка,change_lamp_color,2
+открой программу мою,open_programm,3
+включи программу мою,open_programm,3
+запусти программу мою,open_programm,3
+открой прогу мою,open_programm,3
+включи прогу мою,open_programm,3
+запусти прогу мою,open_programm,3
+открой приложку мою,open_programm,3
+включи приложку мою,open_programm,3
+запусти приложку мою,open_programm,3
+открой программу,open_programm,3
+включи программу,open_programm,3
+запусти программу,open_programm,3
+открой прогу,open_programm,3
+включи прогу,open_programm,3
+запусти прогу,open_programm,3
+открой приложку,open_programm,3
+включи приложку,open_programm,3
+запусти приложку,open_programm,3
+открой,open_programm,3
+включи,open_programm,3
+запусти,open_programm,3
+открой приложение мое,open_programm,3
+включи приложение мое,open_programm,3
+запусти приложение мое,open_programm,3
+открой приложение,open_programm,3
+включи приложение,open_programm,3
+запусти приложение,open_programm,3
+открой мою программу,open_programm,3
+включи мою программу,open_programm,3
+запусти мою программу,open_programm,3
+открой мою прогу,open_programm,3
+включи мою прогу,open_programm,3
+запусти мою прогу,open_programm,3
+открой мою приложку,open_programm,3
+включи мою приложку,open_programm,3
+запусти мою приложку,open_programm,3
+открой мое приложение,open_programm,3
+включи мое приложение,open_programm,3
+запусти мое приложение,open_programm,3
+мою открой программу,open_programm,3
+мою включи программу,open_programm,3
+мою запусти программу,open_programm,3
+мою открой прогу,open_programm,3
+мою включи прогу,open_programm,3
+мою запусти прогу,open_programm,3
+мою открой приложку,open_programm,3
+мою включи приложку,open_programm,3
+мою запусти приложку,open_programm,3
+мое открой приложение,open_programm,3
+мое включи приложение,open_programm,3
+мое запусти приложение,open_programm,3
+мою открой программу,open_programm,3
+мою включи программу,open_programm,3
+мою запусти программу,open_programm,3
+мою открой прогу,open_programm,3
+мою включи прогу,open_programm,3
+мою запусти прогу,open_programm,3
+мою открой приложку,open_programm,3
+мою включи приложку,open_programm,3
+мою запусти приложку,open_programm,3
+мое открой приложение,open_programm,3
+мое включи приложение,open_programm,3
+мое запусти приложение,open_programm,3
+расскажи тот анекдот про бомжа и бумажка,listen_definite_anecdote,4
+поведай тот анекдот про бомжа и бумажка,listen_definite_anecdote,4
+изложи тот анекдот про бомжа и бумажка,listen_definite_anecdote,4
+изъясни тот анекдот про бомжа и бумажка,listen_definite_anecdote,4
+расскажи тот самый анекдот про бомжа и бумажка,listen_definite_anecdote,4
+поведай тот самый анекдот про бомжа и бумажка,listen_definite_anecdote,4
+изложи тот самый анекдот про бомжа и бумажка,listen_definite_anecdote,4
+изъясни тот самый анекдот про бомжа и бумажка,listen_definite_anecdote,4
+расскажи тот анекдотик про бомжа и бумажка,listen_definite_anecdote,4
+поведай тот анекдотик про бомжа и бумажка,listen_definite_anecdote,4
+изложи тот анекдотик про бомжа и бумажка,listen_definite_anecdote,4
+изъясни тот анекдотик про бомжа и бумажка,listen_definite_anecdote,4
+расскажи тот самый анекдотик про бомжа и бумажка,listen_definite_anecdote,4
+поведай тот самый анекдотик про бомжа и бумажка,listen_definite_anecdote,4
+изложи тот самый анекдотик про бомжа и бумажка,listen_definite_anecdote,4
+изъясни тот самый анекдотик про бомжа и бумажка,listen_definite_anecdote,4
+расскажи тот анекдотец про бомжа и бумажка,listen_definite_anecdote,4
+поведай тот анекдотец про бомжа и бумажка,listen_definite_anecdote,4
+изложи тот анекдотец про бомжа и бумажка,listen_definite_anecdote,4
+изъясни тот анекдотец про бомжа и бумажка,listen_definite_anecdote,4
+расскажи тот самый анекдотец про бомжа и бумажка,listen_definite_anecdote,4
+поведай тот самый анекдотец про бомжа и бумажка,listen_definite_anecdote,4
+изложи тот самый анекдотец про бомжа и бумажка,listen_definite_anecdote,4
+изъясни тот самый анекдотец про бомжа и бумажка,listen_definite_anecdote,4
+расскажи тот некдот про бомжа и бумажка,listen_definite_anecdote,4
+поведай тот некдот про бомжа и бумажка,listen_definite_anecdote,4
+изложи тот некдот про бомжа и бумажка,listen_definite_anecdote,4
+изъясни тот некдот про бомжа и бумажка,listen_definite_anecdote,4
+расскажи тот самый некдот про бомжа и бумажка,listen_definite_anecdote,4
+поведай тот самый некдот про бомжа и бумажка,listen_definite_anecdote,4
+изложи тот самый некдот про бомжа и бумажка,listen_definite_anecdote,4
+изъясни тот самый некдот про бомжа и бумажка,listen_definite_anecdote,4
+расскажи тот анек про бомжа и бумажка,listen_definite_anecdote,4
+поведай тот анек про бомжа и бумажка,listen_definite_anecdote,4
+изложи тот анек про бомжа и бумажка,listen_definite_anecdote,4
+изъясни тот анек про бомжа и бумажка,listen_definite_anecdote,4
+расскажи тот самый анек про бомжа и бумажка,listen_definite_anecdote,4
+поведай тот самый анек про бомжа и бумажка,listen_definite_anecdote,4
+изложи тот самый анек про бомжа и бумажка,listen_definite_anecdote,4
+изъясни тот самый анек про бомжа и бумажка,listen_definite_anecdote,4
+расскажи тот рассказ про бомжа и бумажка,listen_definite_anecdote,4
+поведай тот рассказ про бомжа и бумажка,listen_definite_anecdote,4
+изложи тот рассказ про бомжа и бумажка,listen_definite_anecdote,4
+изъясни тот рассказ про бомжа и бумажка,listen_definite_anecdote,4
+расскажи тот самый рассказ про бомжа и бумажка,listen_definite_anecdote,4
+поведай тот самый рассказ про бомжа и бумажка,listen_definite_anecdote,4
+изложи тот самый рассказ про бомжа и бумажка,listen_definite_anecdote,4
+изъясни тот самый рассказ про бомжа и бумажка,listen_definite_anecdote,4
+расскажи тот рассказец про бомжа и бумажка,listen_definite_anecdote,4
+поведай тот рассказец про бомжа и бумажка,listen_definite_anecdote,4
+изложи тот рассказец про бомжа и бумажка,listen_definite_anecdote,4
+изъясни тот рассказец про бомжа и бумажка,listen_definite_anecdote,4
+расскажи тот самый рассказец про бомжа и бумажка,listen_definite_anecdote,4
+поведай тот самый рассказец про бомжа и бумажка,listen_definite_anecdote,4
+изложи тот самый рассказец про бомжа и бумажка,listen_definite_anecdote,4
+изъясни тот самый рассказец про бомжа и бумажка,listen_definite_anecdote,4
+расскажи тот рассказик про бомжа и бумажка,listen_definite_anecdote,4
+поведай тот рассказик про бомжа и бумажка,listen_definite_anecdote,4
+изложи тот рассказик про бомжа и бумажка,listen_definite_anecdote,4
+изъясни тот рассказик про бомжа и бумажка,listen_definite_anecdote,4
+расскажи тот самый рассказик про бомжа и бумажка,listen_definite_anecdote,4
+поведай тот самый рассказик про бомжа и бумажка,listen_definite_anecdote,4
+трудности делают человека сильнее,philosophical_talk,5
+существует ли судьба,philosophical_talk,5
+"влияет ли имя человека на личность, которой он становится",philosophical_talk,5
+"откуда у человека появилось понятие самооценки, если он произошел от обезьяны",philosophical_talk,5
+"почему мы судим себя по своим намерениям, но других судим по их действиям",philosophical_talk,5
+"какова вероятность того, что люди просуществуют еще 1000 лет, не уничтожив себя",philosophical_talk,5
+у добрых дел должен быть мотив или нет,philosophical_talk,5
+"какие бы два вопроса вы задали, чтобы получить больше информации о том, что такое человек",philosophical_talk,5
+можно ли изменить природу человека,philosophical_talk,5
+"почему мы стремимся к совершенству, если оно недостижимо",philosophical_talk,5
+в чем заключается самая большая растрата человеческого потенциала,philosophical_talk,5
+что полезнее - разум или мудрость,philosophical_talk,5
+почему мы мечтаем,philosophical_talk,5
+"где грань между искусством, вандализмом и ремеслом",philosophical_talk,5
+человеку лучше быть знающим и начитанным или мудрым,philosophical_talk,5
+является ли страдание необходимой частью состояния души человека,philosophical_talk,5
+"какими были бы люди, если бы они никогда не страдали",philosophical_talk,5
+какую пользу приносит мастерство искусству,philosophical_talk,5
+вредит ли искусство обществу,philosophical_talk,5
+есть ли смысл в жизни,philosophical_talk,5
+является ли смысл жизни одинаковым для животных и людей,philosophical_talk,5
+что значит жить хорошей жизнью,philosophical_talk,5
+можно ли жить нормальной жизнью и никогда не лгать,philosophical_talk,5
+какие действия в нашей жизни будут иметь самые продолжительные последствия,philosophical_talk,5
+как долго они будут ощущаться,philosophical_talk,5
+"как изменится человечество, если продолжительность жизни всех людей возрастет, скажем, до 500 лет",philosophical_talk,5
+в чем вы находите смысл своей жизни,philosophical_talk,5
+"что должен испытать хотя бы раз в жизни каждый человек, чтобы понять ее смысл",philosophical_talk,5
+для здоровой и полноценной жизни важно умение играть и веселиться,philosophical_talk,5
+"как вы думаете, в чем стоит искать смысл в жизни",philosophical_talk,5
+"является ли жизнь достойной и стоящей, если в ней основное внимание уделяется поиску удовольствий и желанию всячески избежать страданий",philosophical_talk,5
+"что заставляет вас чувствовать, что вы живете полной жизнью",philosophical_talk,5
+может ли жизнь быть значимой и настоящей без друзей,philosophical_talk,5
+в чем смысл хорошей жизни,philosophical_talk,5
+есть ли идеальная жизнь,philosophical_talk,5
+в человеческой жизни есть первопричина или нет,philosophical_talk,5
+смерть - это новое начало жизни или ее конец,philosophical_talk,5
+"если жизнь после смерти существует, тогда, почему никто не хочет умирать",philosophical_talk,5
+"как лучше всего распорядиться своей жизнью, чтобы не зря ее прожить",philosophical_talk,5
+личность человека формируют природа или воспитание,philosophical_talk,5
+что такое свобода,philosophical_talk,5
+возможна ли настоящая свобода,philosophical_talk,5
+"можем ли мы знать, что такое счастье без страданий",philosophical_talk,5
+что происходит с человеком после его смерти,philosophical_talk,5
+можно ли понять добро без зла,philosophical_talk,5
+"что такое, правда и реальность",philosophical_talk,5
+есть ли у животных души,philosophical_talk,5
+чем отличается души людей от душ животных,philosophical_talk,5
+каков смысл и цель жизни,philosophical_talk,5
+что такое любовь,philosophical_talk,5
+"есть ли такая вещи, как свобода воли и право выбора",philosophical_talk,5
+бог есть,philosophical_talk,5
+"откуда вы знаете, что Бог существует",philosophical_talk,5
+как началась жизнь,philosophical_talk,5
+что такое счастье,philosophical_talk,5
+мы одни во Вселенной,philosophical_talk,5
+что делает нас людьми,philosophical_talk,5
+можем ли мы жить вечно,philosophical_talk,5
+"возможно, ли путешествие во времени",philosophical_talk,5
+в чем разница между справедливостью и местью,philosophical_talk,5
+"как определить, что является злом, а что нет",philosophical_talk,5
