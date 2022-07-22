@@ -3,11 +3,11 @@
 ## second_model (research)
 Было принято решение написать кастомную модель на основе того же [transformers/models/bert](https://github.com/huggingface/transformers/blob/main/src/transformers/models/bert) с использованием библиотеки **PyTorch** и предобученной модели **BERT Multilingual Base Cased**
 ### Technical
-- [x] Inital version of model class
+- [x] Initial version of model class
 - [x] Preparing dataset for training model
-- [x] Training model
+- [x] Initial version of model train
   - [x] Boost with GPU
-- [x] Model predict
+- [x] Model save, load and predict -> `model.save()` already exists
 ### Scientific
 - [ ] Define classification layers
 - [ ] Define loss and optim funcs in `model.train()`
