@@ -2,6 +2,8 @@
 Это репозиторий для нейросети - классификатора команд, которая входящий текст относит к той или иной задаче/команде, которую голосовой помощник должен выполнить.
 ## second_model (research)
 Было принято решение написать кастомную модель на основе того же [transformers/models/bert](https://github.com/huggingface/transformers/blob/main/src/transformers/models/bert) с использованием библиотеки **PyTorch** и предобученной модели **BERT Multilingual Base Cased**
+
+![Scheme idea](https://github.com/GDSC-Saratov/va-intent-classifier/blob/research/README/scheme_idea.jpg)
 ### Technical
 - [x] Initial version of model class
 - [x] Preparing dataset for training model
