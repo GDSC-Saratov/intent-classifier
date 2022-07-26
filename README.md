@@ -12,7 +12,7 @@
 - [x] Model save, load and predict -> `model.save()` already exists
 ### Scientific
 - [ ] Define classification layers
-- [ ] Define loss and optim funcs in `model.train()`
+- [x] Define loss and optim funcs in `model.train()`
 - [ ] Prepare dataset
   - [x] For debug (*small_dataset*)
   - [ ] For release
