@@ -1,43 +1,46 @@
 import torch
-from transformers import BertModel, BertConfig, BertTokenizer
+from transformers import BertForSequenceClassification, BertConfig, BertTokenizer, get_linear_schedule_with_warmup
+from transformers.modeling_outputs import SequenceClassifierOutput
 
-from typing import Any, Union, Tuple, Dict
+from typing import Any, Union, Tuple, List, Dict
 
 
-def get_formal_label(label: int, num_labels: int, dtype: Any = int) -> torch.tensor:
-	formal_label = [0]*num_labels
-	formal_label[label] = 1
-	return torch.tensor([formal_label], dtype=dtype)
+def get_formated_label(label: int, num_labels: int) -> List[int]:
+	'''Getting formated label for NN'''
+	formated_label = [0]*num_labels
+	formated_label[label] = 1
+	return formated_label
 
 
 class Dataset(torch.utils.data.Dataset):
-	def __init__(self, seqs: list, labels: list, tokenizer: Any, num_labels: int):
-		self.tokenized = [tokenizer.tokenize(seq, return_tensors='pt') for seq in seqs]
-		self.formal_labels = [get_formal_label(label, num_labels=num_labels) for label in labels]
+	
+	def __init__(self, seqs: list, labels: list, tokenizer: object, num_labels: int):
+		self.tokenized = [tokenizer(seq, max_length=512, padding='max_length') for seq in seqs] # max_length=512 'cause max_position_embeddings=512 in bert
+		self.formated_labels = [get_formated_label(label, num_labels) for label in labels]
 
 	def __getitem__(self, i) -> Tuple[Dict[str, torch.tensor], torch.tensor]:
-		return self.tokenized[i], self.formal_labels[i]
+		tokenized = {k: torch.tensor(v) for k, v in self.tokenized[i].items()}
+		formated_label = torch.tensor(self.formated_labels[i]).float()
+		return tokenized, formated_label
 	
 	def __len__(self) -> int:
 		return len(self.tokenized)
 
 
 class IntentClassifier(torch.nn.Module):
+
 	def __init__(self, pretrained_bert_model: str, num_labels: int, load_bert_model_state_dict: bool = True):
 		super(IntentClassifier, self).__init__()
 		self.pretrained_bert_model = pretrained_bert_model
 		self.num_labels = num_labels
 
+		self.tokenizer = BertTokenizer.from_pretrained(self.pretrained_bert_model)
+
 		# layers
 		if load_bert_model_state_dict:
-			self.bert = BertModel.from_pretrained(self.pretrained_bert_model)
+			self.bertfsc = BertForSequenceClassification.from_pretrained(self.pretrained_bert_model, num_labels=self.num_labels)
 		else:
-			self.bert = BertModel(BertConfig.from_pretrained(pretrained_bert_model))
-		#classification layers need define
-		self.dropout = torch.nn.Dropout(p=0.1, inplace=False)
-		self.classifier = torch.nn.Linear(in_features=768, out_features=self.num_labels, bias=True)
-
-		self.tokenizer = BertTokenizer.from_pretrained(self.pretrained_bert_model)
+			self.bertfsc = BertForSequenceClassification(BertConfig.from_pretrained(self.pretrained_bert_model), num_labels=self.num_labels)
 
 		if torch.cuda.is_available():
 			self.device = torch.device('cuda:0')
@@ -45,39 +48,62 @@ class IntentClassifier(torch.nn.Module):
 			self.device = torch.device('cpu')
 	
 	
-	def forward(self, input_ids: torch.tensor, token_type_ids: torch.tensor, attention_mask: torch.tensor) -> torch.tensor:
-		pooled_output = self.bert(input_ids=input_ids, token_type_ids=token_type_ids, attention_mask=attention_mask)
-		pooled_output = self.dropout(pooled_output[1])
-		logits = self.classifier(pooled_output)
-		return logits
+	def forward(self, input_ids: torch.tensor, attention_mask: torch.tensor, token_type_ids: torch.tensor, labels: torch.tensor = None) -> SequenceClassifierOutput:
+		bertfsc_output = self.bertfsc(input_ids=input_ids, attention_mask=attention_mask, token_type_ids=token_type_ids, labels=labels)
+		return bertfsc_output
 
 	
-	def train(self, dataset: Dataset, epochs: int):
-		criterion = torch.nn.CrossEntropyLoss().to(self.device) #need define
-		optimizer = torch.optim.AdamW(self.parameters()) #need define
+	def train(self, dataloader: torch.utils.data.DataLoader(Dataset), epochs: int) -> List[float]:
+		'''Training layers (without untrained) with dataloader of Dataset
+		with optim func **AdamW**'''
+		optimizer = torch.optim.AdamW(self.parameters())
+
+		num_training_steps = len(train_dataloader) * epochs
+		scheduler = get_linear_schedule_with_warmup(optimizer, num_warmup_steps=0, num_training_steps=num_training_steps)
+
+		# for statistics
+		train_loss, history_train_loss = 0.0, list()
+		ebfs = len(train_dataloader) / 10 # ebfc - every batch for statistics
 
 		for epoch in range(epochs):
+			for i, batch in enumerate(train_dataloader):
+				input_ids = batch[0]['input_ids'].to(self.device)
+				attention_mask = batch[0]['attention_mask'].to(self.device)
+				token_type_ids = batch[0]['token_type_ids'].to(self.device)
+				formated_labels = batch[1].to(self.device)
 
-			for i, data in enumerate(dataset, 0):
-				tokenized, formal_label = data
-				
-				optimizer.zero_grad()
+				self.zero_grad()
 
-				logits = self.forward(tokenized['input_ids'], tokenized['token_type_ids'], tokenized['attention_mask'])
-				loss = criterion(logits, formal_label.float().to(self.device))
+				forward_output = self.forward(input_ids, attention_mask, token_type_ids, formated_labels)
+				loss = forward_output[0]
 				loss.backward()
+
+				# for statistics
+				train_loss += loss.item()
+				if i % ebfs == ebfs - 1:
+						print(f"[Epoch: {epoch + 1}, batch: {i + 1:5d}]. Loss: {train_loss / ebfs:.3f}")
+						history_train_loss.append(train_loss / ebfs)
+						train_loss = 0.0
+				
+				torch.nn.utils.clip_grad_norm_(self.parameters(), 1.0)
+
 				optimizer.step()
-			
-		print("Training if finish")
+				scheduler.step()
+		
+		print("Training is finish.")
+		return history_train_loss
 	
 
 	def load(self, fp: str):
+		'''Loading state dict (weights and biases) from pytorch checkpoint'''
 		self.load_state_dict(torch.load(fp))
 
 	
 	def predict(self, text: str) -> Dict[str, Union[int, float]]:
-		tokenized = self.tokenizer(text, return_tensors='pt')
-		logits = self.forward(tokenized['input_ids'], tokenized['token_type_ids'], tokenized['attention_mask'])
+		
+		tokenized = self.tokenizer(text, return_tensors='pt').to(self.device)
+		forward_output = self.forward(tokenized['input_ids'], tokenized['attention_mask'], tokenized['token_type_ids'])
+		logits = forward_output[0]
 
 		max_prob_label, max_prob = -1, -1
 		for label, prob in enumerate(logits[0], 0):
@@ -88,4 +114,5 @@ class IntentClassifier(torch.nn.Module):
 		if max_prob < 0.51:
 			max_prob_label, max_prob = 6, 1.0 - torch.mean(logits[0]).item()
 
-		return {'label': max_prob_label, 'prob': round(max_prob, 2)}
+		print(logits) # for debug
+		return {'label': max_prob_label, 'prob': round(max_prob, 3)}
