@@ -53,17 +53,18 @@ class IntentClassifier(torch.nn.Module):
 		return bertfsc_output
 
 	
-	def train(self, dataloader: torch.utils.data.DataLoader(Dataset), epochs: int) -> List[float]:
+	def train(self, dataloader: torch.utils.data.DataLoader(Dataset), optim: Any, lr: float, epochs: int) -> List[float]:
 		'''Training layers (without untrained) with dataloader of Dataset
-		with optim func **AdamW**'''
-		optimizer = torch.optim.AdamW(self.parameters())
+		with optional optim func with optional learning rate (lr)'''
+		# lr=2e-5 or 3e-5 or 5e-5 recommended for sequence classification by bert researchers (https://arxiv.org/pdf/1810.04805.pdf)
+		optim = optim(self.parameters(), lr=lr)
 
 		num_training_steps = len(train_dataloader) * epochs
-		scheduler = get_linear_schedule_with_warmup(optimizer, num_warmup_steps=0, num_training_steps=num_training_steps)
+		scheduler = get_linear_schedule_with_warmup(optim, num_warmup_steps=0, num_training_steps=num_training_steps)
 
 		# for statistics
-		train_loss, history_train_loss = 0.0, list()
-		ebfs = len(train_dataloader) / 10 # ebfc - every batch for statistics
+		history_train_loss = list()
+		ebfps = len(train_dataloader) / 10 # ebfps - every batch for print statistics
 
 		for epoch in range(epochs):
 			for i, batch in enumerate(train_dataloader):
@@ -79,15 +80,14 @@ class IntentClassifier(torch.nn.Module):
 				loss.backward()
 
 				# for statistics
-				train_loss += loss.item()
-				if i % ebfs == ebfs - 1:
-						print(f"[Epoch: {epoch + 1}, batch: {i + 1:5d}]. Loss: {train_loss / ebfs:.3f}")
-						history_train_loss.append(train_loss / ebfs)
-						train_loss = 0.0
+				train_loss = loss.item()
+				if i % ebfps == ebfps - 1:
+						print(f"[Epoch: {epoch + 1}, batch: {i + 1}]. Loss: {train_loss}")
+				history_train_loss.append(train_loss)
 				
 				torch.nn.utils.clip_grad_norm_(self.parameters(), 1.0)
 
-				optimizer.step()
+				optim.step()
 				scheduler.step()
 		
 		print("Training is finish.")
