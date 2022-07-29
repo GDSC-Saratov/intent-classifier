@@ -53,18 +53,23 @@ class IntentClassifier(torch.nn.Module):
 		return bertfsc_output
 
 	
-	def train(self, dataloader: torch.utils.data.DataLoader(Dataset), optim: Any, lr: float, epochs: int) -> List[float]:
+	def train(self,
+						train_dataloader: torch.utils.data.DataLoader(Dataset),
+						epochs: int,
+						test_dataloader: torch.utils.data.DataLoader(Dataset) = None,
+						ebfps: int = None) -> List[float]:
 		'''Training layers (without untrained) with dataloader of Dataset
-		with optional optim func with optional learning rate (lr)'''
-		# lr=2e-5 or 3e-5 or 5e-5 recommended for sequence classification by bert researchers (https://arxiv.org/pdf/1810.04805.pdf)
-		optim = optim(self.parameters(), lr=lr)
+		without evaluate and with optim func AdamW(lr=5e-5). ebfps - ebery batch for print statistics'''
+		# lr=5e-5 or 2e-5 or 3e-5 recommended for sequence classification by bert researchers (https://arxiv.org/pdf/1810.04805.pdf)
+		optim = torch.optim.AdamW(self.parameters(), lr=5e-5)
 
 		num_training_steps = len(train_dataloader) * epochs
 		scheduler = get_linear_schedule_with_warmup(optim, num_warmup_steps=0, num_training_steps=num_training_steps)
 
 		# for statistics
-		history_train_loss = list()
-		ebfps = len(train_dataloader) / 10 # ebfps - every batch for print statistics
+		history_train_loss, history_eval_loss = list(), list()
+
+		eval_mean_loss_0 = self.evaluate(test_dataloader)['mean_loss']
 
 		for epoch in range(epochs):
 			for i, batch in enumerate(train_dataloader):
@@ -81,8 +86,9 @@ class IntentClassifier(torch.nn.Module):
 
 				# for statistics
 				train_loss = loss.item()
-				if i % ebfps == ebfps - 1:
-						print(f"[Epoch: {epoch + 1}, batch: {i + 1}]. Loss: {train_loss}")
+				if ebfps:
+					if i % ebfps == ebfps - 1:
+							print(f"[Train][Epoch: {epoch + 1}, batch: {i + 1}]. Loss: {train_loss}")
 				history_train_loss.append(train_loss)
 				
 				torch.nn.utils.clip_grad_norm_(self.parameters(), 1.0)
@@ -91,7 +97,29 @@ class IntentClassifier(torch.nn.Module):
 				scheduler.step()
 		
 		print("Training is finish.")
-		return history_train_loss
+		return {'history_train_loss': history_train_loss, 'history_eval_loss': history_eval_loss}
+	
+
+	# for statistics
+	def evaluate(self, test_dataloader: torch.utils.data.DataLoader(Dataset), ebfps: int = None) -> Dict[str, Union[float, List[float]]]:
+		'''... ebfps - every batch for print statistics'''
+		history_loss = list()
+
+		for i, batch in enumerate(test_dataloader):
+			input_ids = batch[0]['input_ids'].to(self.device)
+			attention_mask = batch[0]['attention_mask'].to(self.device)
+			token_type_ids = batch[0]['token_type_ids'].to(self.device)
+			formated_labels = batch[1].to(self.device)
+
+			with torch.no_grad():
+				forward_output = self.forward(input_ids, attention_mask, token_type_ids, formated_labels)
+				loss = forward_output[0].item()
+				if ebfps:
+					if i % ebfps == ebfps - 1:
+							print(f"[Evaluate][Batch: {i + 1}]. Loss: {loss}")
+				history_loss.append(loss)
+
+		return {'mean_loss': np.mean(history_loss), 'history_loss': history_loss}
 	
 
 	def load(self, fp: str):
