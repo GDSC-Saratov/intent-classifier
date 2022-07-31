@@ -9,7 +9,7 @@ app.config['JSON_AS_ASCII'] = False # for return JSON by Flask as UTF-8
 
 model = second_model.IntentClassifier('bert-base-multilingual-cased', num_labels=6, load_bert_model_state_dict=False)
 model.to(model.device)
-model.load(secret.CHECKPOINTS_PATH + 'second_model.pt')
+model.load(secret.SM_CHECKPOINT_PATH)
 
 
 @app.route('/predict', methods=['POST'])

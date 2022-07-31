@@ -14,7 +14,7 @@
 - [x] Model save, load and predict -> `model.save()` already exists
 ### Scientific
 - [x] Define classification layers
-- [ ] Define optim func in `model.train()`
+- [x] Define optim func in `model.train()`
 - [ ] Prepare dataset
   - [x] For debug (*small_dataset*)
   - [ ] For release
@@ -25,6 +25,8 @@
 #### Defining optim func in `model.train()`
 Было проведено исследование различных конфигураций модели с рекомендуемыми различными исследователями _optimizers_: Adam и AdamW, _learning rate_ для них: 2e-5, 3e-5 и 5e-5 и _epochs_: 2, 3, 4. _batch_size_ для каждой конфигурации выбран общий emdash 16 (график см. ниже).
 
-По моему (@fruitourist) мнению, наиболее подходящим для общей модели оказывается использование в качестве _optimizer_ - **AdamW** из-за ее большей устойчивости по сравнению с Adam (см. на графике), _learning rate_ - **5e-5**. Наиболее подходящий _epochs_ - **3**: именно после данной эпохи нейросеть перестает обучаться лучше - можно предположить, что обучение через большей кол-во эпох может привести к переобучению.
+По моему (@fruitourist) мнению, наиболее подходящим для общей модели оказывается использование в качестве _optimizer_ - **AdamW** из-за ее большей устойчивости по сравнению с Adam (см. на графике), _learning rate_ - **5e-5**. Наиболее подходящий _epochs_ - **4**.
 
 ![Plot define optim func](https://github.com/GDSC-Saratov/va-intent-classifier/blob/research/README/plot_define_optim_func.png)
+
+#### Ready model on small_dataset

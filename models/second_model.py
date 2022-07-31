@@ -58,8 +58,8 @@ class IntentClassifier(torch.nn.Module):
 						epochs: int,
 						test_dataloader: torch.utils.data.DataLoader(Dataset) = None,
 						ebfps: int = None) -> List[float]:
-		'''Training layers (without untrained) with dataloader of Dataset
-		without evaluate and with optim func AdamW(lr=5e-5). ebfps - ebery batch for print statistics'''
+		'''Training layers with dataloader of Dataset
+		with optim func AdamW(lr=5e-5)'''
 		# lr=5e-5 or 2e-5 or 3e-5 recommended for sequence classification by bert researchers (https://arxiv.org/pdf/1810.04805.pdf)
 		optim = torch.optim.AdamW(self.parameters(), lr=5e-5)
 
@@ -95,6 +95,9 @@ class IntentClassifier(torch.nn.Module):
 
 				optim.step()
 				scheduler.step()
+			
+				eval_mean_loss = self.evaluate(test_dataloader)['mean_loss']
+				history_eval_loss.append(eval_mean_loss)
 		
 		print("Training is finish.")
 		return {'history_train_loss': history_train_loss, 'history_eval_loss': history_eval_loss}
@@ -122,8 +125,13 @@ class IntentClassifier(torch.nn.Module):
 		return {'mean_loss': np.mean(history_loss), 'history_loss': history_loss}
 	
 
+	def save(self, p: str):
+		'''Saving state dict (weights and biases) to pytorch checkpoint file'''
+		torch.save(self.state_dict(), p)
+	
+
 	def load(self, fp: str):
-		'''Loading state dict (weights and biases) from pytorch checkpoint'''
+		'''Loading state dict (weights and biases) from pytorch checkpoint file'''
 		self.load_state_dict(torch.load(fp))
 
 	
