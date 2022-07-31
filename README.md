@@ -11,7 +11,7 @@
 - [x] Preparing dataset for training model
 - [x] Initial version of model train
   - [x] Boost with GPU
-- [x] Model save, load and predict -> `model.save()` already exists
+- [x] Model save, load and predict
 ### Scientific
 - [x] Define classification layers
 - [x] Define optim func in `model.train()`
@@ -30,3 +30,12 @@
 ![Plot define optim func](https://github.com/GDSC-Saratov/va-intent-classifier/blob/research/README/plot_define_optim_func.png)
 
 #### Ready model on small_dataset
+History loss:
+
+![Plot model train](https://github.com/GDSC-Saratov/va-intent-classifier/blob/research/README/plot_model_train.png)
+
+Predict examples:
+
+![Barh model predict](https://github.com/GDSC-Saratov/va-intent-classifier/blob/research/README/barh_model_predict.png)
+
+Link to pytorch checkpoint on Google Drive: [vaic_on-small-dataset](https://drive.google.com/file/d/1reYZV6InNDic5g-2ChokQhGRwNJO822J/view?usp=sharing)
